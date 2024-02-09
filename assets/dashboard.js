@@ -29,6 +29,6 @@ const dropDowns = Array.from(document.querySelectorAll('#cs-navigation .cs-dropd
         const onClick = () => {
             item.classList.toggle('cs-active')
         }
-        item.addEventListener('click', onClick)
+    item.addEventListener('click', onClick)
     }
                                 
