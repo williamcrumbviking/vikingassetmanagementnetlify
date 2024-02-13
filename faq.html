@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FAQ</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/core.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/faq.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="assets/images/logo-viking-asset-management-llc.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="/index.html" class="cs-li-link ">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="/services.html" class="cs-li-link">
+                            Services
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="/about.html" class="cs-li-link">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="/faq.html" class="cs-li-link cs-active">
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="" class="cs-button-solid cs-nav-button">Contact Us</a>
+    </div>
+</header>
+
+
+<!-- ============================================ -->
+<!--                     FAQ                      -->
+<!-- ============================================ -->
+
+<section id="faq-350">
+    <div class="cs-container">
+        <div class="cs-left">
+            <!--Big Image-->
+            <picture class="cs-picture cs-picture1" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="https://gobright.com/wp-content/uploads/2021/02/team-foto.jpg">
+                <source media="(min-width: 601px)" srcset="https://gobright.com/wp-content/uploads/2021/02/team-foto.jpg">
+                <img loading="lazy" decoding="async" src="https://gobright.com/wp-content/uploads/2021/02/team-foto.jpg" alt="cleaning supplies" width="672" height="672">
+            </picture>
+
+            <!--Medium Image-->
+            <picture class="cs-picture cs-picture2" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="https://i.rtings.com/assets/pages/KSgFV72t/best-laptops-for-working-from-home-20230503-medium.jpg">
+                <source media="(min-width: 601px)" srcset="https://i.rtings.com/assets/pages/KSgFV72t/best-laptops-for-working-from-home-20230503-medium.jpg">
+                <img loading="lazy" decoding="async" src="https://i.rtings.com/assets/pages/KSgFV72t/best-laptops-for-working-from-home-20230503-medium.jpg" alt="cleaning supplies" width="300" height="300">
+            </picture>
+            <!--Small Image-->
+            <picture class="cs-picture cs-picture3" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="https://oercommons.s3.amazonaws.com/media/courseware/lesson/image/6-Reasons-why-you-should-learn-Programming-1280x720.png">
+                <source media="(min-width: 601px)" srcset="https://oercommons.s3.amazonaws.com/media/courseware/lesson/image/6-Reasons-why-you-should-learn-Programming-1280x720.png">
+                <img loading="lazy" decoding="async" src="https://oercommons.s3.amazonaws.com/media/courseware/lesson/image/6-Reasons-why-you-should-learn-Programming-1280x720.png" alt="cleaner" width="200" height="200">
+            </picture>
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">Asked questions</span>
+            <h2 class="cs-title">Frequently Asked Questions</h2>
+            <ul class="cs-faq-group">
+                <!-- Active class added as default -->
+                <li class="cs-faq-item active">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Do you sell courses?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                       We plan to release courses and provide consultation in the future. 
+
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            I have a question. How can I reach out?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        You can contact us by filling the contact form below. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What kind of services do you offer?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        We offer Investment research and educational service and trading like fundamental analysis, chartanalalysis, research strategys, valuation and so on.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Do you provide direct trading services?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        No. We only offer Investment research and educational services.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What are working scheduled?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-308">
+    <div class="cs-container">
+        <!-- Logo Group -->
+        <div class="cs-logo-group">
+            <a aria-label="go back to home" class="cs-logo" href="">
+                <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="assets/images/logo-viking-asset-management-llc.png" alt="logo" width="178" height="32">
+            </a>
+            <p class="cs-text">
+                Aenean tincidunt id mauris idology auctor. Donec at ligula lacus. Nulla dig nissimmi quis neque interdum. An Ohio man allegedly punched.
+            </p>
+        </div>
+        <!-- Links -->
+        <ul class="cs-nav">
+            <li class="cs-nav-li">
+                <span class="cs-header">Sitemap</span>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">About</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Services</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Portfolio</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Contact</a>
+            </li>
+        </ul>
+        <ul class="cs-nav">
+            <li class="cs-nav-li">
+                <span class="cs-header">Categories</span>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Business Law</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Education Law</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Insurance Defense</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Family Law</a>
+            </li>
+        </ul>
+        <!-- Contact Info -->
+        <ul class="cs-nav">
+            <li class="cs-nav-li">
+                <span class="cs-header">Contact</span>
+            </li>
+            <li class="cs-nav-li">
+                <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/phone-stroke.svg" alt="phone" width="24" height="24">
+                <a class="cs-nav-link cs-phone" href="tel: 123-456-7890">(123) 456-7890</a>
+            </li>
+            <li class="cs-nav-li">
+                <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/email-stroke.svg" alt="email" width="24" height="24">
+                <a class="cs-nav-link cs-email" href="mailto:info@codestitch.com"> info@vikingassetmanagement.com</a>
+            </li>
+            <li class="cs-nav-li">
+                <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/pin-stroke.svg" alt="pin" width="24" height="24">
+                <a class="cs-nav-link cs-address" href="" target="_blank" rel="noopener">
+                    123 Avenue Street<br> Oak Harbor, WA 98101
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="cs-bottom">
+        <span class="cs-copyright">© Copyright 2021 - <a class="cs-copyright-link" href="">Viking Asset Management LLC.</a></span>
+    </div>
+</footer>
+                                                                                  
+<script type="text/javascript" src="assets/dashboard.js"></script>    
+</body>
+</html>
