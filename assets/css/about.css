@@ -589,7 +589,7 @@ html {
     }
     #cs-footer-308 .cs-logo-group {
         /* takes up all the space, lets the other ul's wrap below it */
-        width: 100%;
+        width: 80%;
         position: relative;
     }
     #cs-footer-308 .cs-logo {
